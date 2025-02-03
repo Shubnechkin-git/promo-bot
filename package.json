@@ -1,0 +1,26 @@
+{
+  "name": "promo_bot",
+  "version": "1.0.0",
+  "description": "бот в вк разрающий курсы по программированию",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubnechkin-git/promo-bot.git"
+  },
+  "author": "Shubnechkin Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shubnechkin-git/promo-bot/issues"
+  },
+  "homepage": "https://github.com/Shubnechkin-git/promo-bot#readme",
+  "dependencies": {
+    "@vk-io/hear": "^1.1.1",
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9",
+    "vk-io": "^4.9.1"
+  }
+}
