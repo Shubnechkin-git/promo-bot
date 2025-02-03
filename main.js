@@ -16,7 +16,7 @@ app.listen(process.env.PORT)
 const url = process.env.PROD_URL;
 
 // Интервал пингования в миллисекундах (например, 1 минут)
-const pingInterval = 13 * 60 * 1000;
+const pingInterval = process.env.PING_INTERVAL * 60 * 1000;
 // const pingInterval = 10 * 1000;
 
 // Функция для пингования сервера 
