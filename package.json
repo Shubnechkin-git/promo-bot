@@ -19,7 +19,9 @@
   "homepage": "https://github.com/Shubnechkin-git/promo-bot#readme",
   "dependencies": {
     "@vk-io/hear": "^1.1.1",
+    "axios": "^1.7.9",
     "dotenv": "^16.4.7",
+    "express": "^4.21.2",
     "nodemon": "^3.1.9",
     "vk-io": "^4.9.1"
   }
